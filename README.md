@@ -49,3 +49,10 @@ $ ng serve
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
+
+## Deployment
+# Build the Docker image (run this command in the directory where your Dockerfile is located)
+docker build -t my-portfolio -f DockerFile .
+
+# Run the Docker container
+docker run -p 4200:4200 my-portfolio
